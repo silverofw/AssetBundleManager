@@ -43,6 +43,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 811f201f8ec4249d9a2046c3662c1620, type: 2}
   - {fileID: 11400000, guid: b5f31f6745aad4029a2c3bc83504ee4a, type: 2}
+  - {fileID: 11400000, guid: e1b7591bcbc7b2544a4ae0763e13857e, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -63,7 +64,7 @@ MonoBehaviour:
       - m_Id: 70ebade9a170b4c24abdd528a1e989cf
         m_Value: ServerData/[BuildTarget]
       - m_Id: 43a063e68d0cf4270a196b5b902e807d
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: http://172.104.168.190/unityAB
     m_ProfileEntryNames:
     - m_Id: ffae0be59f5834091b476f22a89cec5c
       m_Name: BuildTarget
