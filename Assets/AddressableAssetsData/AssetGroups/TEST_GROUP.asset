@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TEST_GROUP
+  m_EditorClassIdentifier: 
+  m_GroupName: TEST_GROUP
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6ced3a064d20147d38313f940f1777bd
+  m_SerializeEntries:
+  - m_GUID: 7bbb01f5598984d6cb61777b0d2fa9d1
+    m_Address: Assets/Res/Cube 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TEST_GROUP
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 453db1c01d8c1489395e5334cc7bba7e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 97c32eea4fed145ecbfe978258cd9724, type: 2}
+    - {fileID: 11400000, guid: 1fb8f802208b44bb9a25e2bf505fb2b4, type: 2}
