@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
-namespace UnityEditor
+using UnityEditor;
+namespace cardoo.editor
 {
     public class AddressablesUtility
     {

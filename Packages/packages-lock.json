@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.ourpalm.ilruntime": {
+      "version": "2.1.0-preview.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.org"
+    },
     "com.unity.addressables": {
       "version": "1.19.19",
       "depth": 0,
