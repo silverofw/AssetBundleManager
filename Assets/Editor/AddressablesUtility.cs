@@ -15,6 +15,9 @@ namespace UnityEditor
             {
                 group = CreateAssetGroup<BundledAssetGroupSchema>(setting, groupName);
             }
+            
+            //BundledAssetGroupSchema bundledAssetGroupSchema = group.GetSchema<BundledAssetGroupSchema>();
+
             string guid = AssetDatabase.AssetPathToGUID(assetPath);
             AddressableAssetEntry entry = setting.CreateOrMoveEntry(guid, group);
             entry.address = assetPath;
@@ -22,15 +25,14 @@ namespace UnityEditor
             {
                 entry.address = Path.GetFileNameWithoutExtension(assetPath);
             }
-            entry.SetLabel(groupName, true, true);
+            //entry.SetLabel(groupName, true, true);
         }
 
         public static AddressableAssetGroup CreateAssetGroup<SchemaType>(AddressableAssetSettings setting
             , string groupName)
         {
-            return setting.CreateGroup(groupName, false, false, false,
-                new List<AddressableAssetGroupSchema> { setting.DefaultGroup.Schemas[0], setting.DefaultGroup.Schemas[1] }
-                , typeof(SchemaType));
+            return setting.CreateGroup(groupName, false, false, true, null,
+                typeof(BundledAssetGroupSchema), typeof(ContentUpdateGroupSchema));
         }
     }
 }

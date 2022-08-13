@@ -15,16 +15,15 @@ MonoBehaviour:
   m_GroupName: TEST_GROUP
   m_Data:
     m_SerializedData: []
-  m_GUID: 6ced3a064d20147d38313f940f1777bd
+  m_GUID: a036da8d36037497f93f350d5fe75058
   m_SerializeEntries:
   - m_GUID: 7bbb01f5598984d6cb61777b0d2fa9d1
     m_Address: Assets/Res/Cube 1.prefab
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - TEST_GROUP
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 453db1c01d8c1489395e5334cc7bba7e, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 97c32eea4fed145ecbfe978258cd9724, type: 2}
     - {fileID: 11400000, guid: 1fb8f802208b44bb9a25e2bf505fb2b4, type: 2}
+    - {fileID: 11400000, guid: 97c32eea4fed145ecbfe978258cd9724, type: 2}
