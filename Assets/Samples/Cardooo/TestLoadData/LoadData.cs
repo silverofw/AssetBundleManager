@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System.IO;
@@ -8,7 +9,7 @@ using System.IO;
 public class LoadData : MonoBehaviour
 {
     [SerializeField]
-    TMPro.TextMeshProUGUI info;
+    Text info;
     [SerializeField]
     string AddressNameStr;
     [SerializeField]

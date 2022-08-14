@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.IO;
 using ILRuntime.Runtime.Enviorment;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 public class Loby : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI m_TextMeshPro;
+    public Text m_TextMeshPro;
 
     AppDomain appdomain;
 
