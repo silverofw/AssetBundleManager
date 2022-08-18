@@ -28,6 +28,7 @@ public class AssetTool
     }
 
     /// <summary>
+    /// Project中選擇單一或多個目標資源，並將他們的 資源路徑 複製到剪貼簿
     /// プロジェクトビューで1つ以上選択した対象Assetについて、Assetのパスを連結してクリップボードにセットする。
     /// </summary>
     [MenuItem("Assets/Cardooo/Copy Asset Path", false, 500)]
@@ -45,6 +46,7 @@ public class AssetTool
     }
 
     /// <summary>
+    /// Project中選擇單一或多個目標資源，並將他們的 GUID 複製到剪貼簿
     /// プロジェクトビューで1つ以上選択した対象Assetについて、AssetのGUIDを連結してクリップボードにセットする。
     /// </summary>
     [MenuItem("Assets/Cardooo/Copy Asset GUID", false, 500)]
