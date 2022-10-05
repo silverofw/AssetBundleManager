@@ -18,11 +18,11 @@ MonoBehaviour:
   m_GUID: 6deffbaf9e68c7645bd74e6bb4bcefd6
   m_SerializeEntries:
   - m_GUID: 3c744cdebe19ec74aa34cca6078952ef
-    m_Address: Assets/Res/Hotfix\HotFix.dll.bytes
+    m_Address: Assets/Res/Hotfix/HotFix.dll.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 6972cd60bba8ac844b9b656cbe67f66b
-    m_Address: Assets/Res/Hotfix\HotFix.pdb.bytes
+    m_Address: Assets/Res/Hotfix/HotFix.pdb.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

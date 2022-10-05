@@ -18,23 +18,23 @@ MonoBehaviour:
   m_GUID: f743a37000361844cba9b0f3ddda244f
   m_SerializeEntries:
   - m_GUID: 56294ea5eae18436db114ce0f85142d5
-    m_Address: Assets/Res/Scene\Battle.unity
+    m_Address: Assets/Res/Scene/Battle.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 33c90238a971c4cd598b8be8367a2a5a
-    m_Address: Assets/Res/Scene\Loading.unity
+    m_Address: Assets/Res/Scene/Loading.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: a61dd2b5053dd454fa36c319cf4c64e6
-    m_Address: Assets/Res/Scene\Loby.unity
+    m_Address: Assets/Res/Scene/Loby.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c493084edda4a40689a7c85e2f2d87a1
-    m_Address: Assets/Res/Scene\Login.unity
+    m_Address: Assets/Res/Scene/Login.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 45371e5f9be4843c985be8c8fe7d81d1
-    m_Address: Assets/Res/Scene\Result.unity
+    m_Address: Assets/Res/Scene/Result.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
